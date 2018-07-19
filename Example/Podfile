@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LvAddressPicker_Example' do
+  pod 'LvAddressPicker', :path => '../'
+
+  target 'LvAddressPicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
