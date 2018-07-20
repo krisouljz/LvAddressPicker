@@ -1,0 +1,16 @@
+PODS:
+  - LvAddressPicker (0.1.0)
+
+DEPENDENCIES:
+  - LvAddressPicker (from `../`)
+
+EXTERNAL SOURCES:
+  LvAddressPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LvAddressPicker: b01720092ddd3e230918d8b490f9dbf3e60385cf
+
+PODFILE CHECKSUM: 498dedc72e15c59d7aebaab50fc1caab10834a00
+
+COCOAPODS: 1.5.3

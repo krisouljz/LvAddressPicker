@@ -1,0 +1,6 @@
+framework module LvAddressPicker {
+  umbrella header "LvAddressPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

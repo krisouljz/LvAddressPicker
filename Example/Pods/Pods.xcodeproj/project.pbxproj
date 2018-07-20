@@ -1,0 +1,878 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1841BBBF442A5CDD35BDA8FD1BD2A557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3C17B6E3132FB850AA11317C451C9180 /* LvAddressPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC0ADC01437BEA727F8ABD1094D5F5E5 /* LvAddressPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CB23699191CF0195D4B0BC562847C0F /* LvAddressPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 843FA6E881AD16B11C0AB19499EDA353 /* LvAddressPicker.bundle */; };
+		510A1E4DB6A0717AE8C34F1CE69A1959 /* Pods-LvAddressPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0A67B3589E2A1DB23CA1731707B0D4 /* Pods-LvAddressPicker_Example-dummy.m */; };
+		7EC5A0BD742A341510AA378561CE3E0D /* Pods-LvAddressPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1886F79393EA09A4454FEB2128B9ED9 /* Pods-LvAddressPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		843E17E12628F6F277CD5EB8CE4CBB66 /* address_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D8CB8FB673C47A9A6DFACFE0B16FBA3 /* address_data.json */; };
+		902180DFFCADC077B4878FBB61AC593A /* LvAddressPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC4646C341EB294401224C150A30DB /* LvAddressPicker-dummy.m */; };
+		927803F74819E02C6FB15DACD82F3FB2 /* Pods-LvAddressPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D23FC4D03184EC489FD1E5750F97A96E /* Pods-LvAddressPicker_Tests-dummy.m */; };
+		968114F461A07AACB85127622CE829E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A28C2357C4D000D0FB75AF0ED60EB8EC /* LvAddressPickerVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 38503EA743A67F9452BBCFCEE5BAA64B /* LvAddressPickerVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A61D6E58017E7BC658630623F2416EF2 /* Pods-LvAddressPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6284C5AD14035E6ACC42129E42F4573D /* Pods-LvAddressPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B22A67456149D910EDE2053CE64D78A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C18291BDFCFF42A9875F9138D319AEF7 /* AddressFletModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DECABA15F4364E99D2E316F0F8B00D5 /* AddressFletModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDCA40700142CB26132CD8B9BB0867EA /* LvAddressPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC064D9EC075515092E294C705E7C4FD /* LvAddressPickerVC.m */; };
+		F870FD8D9AFCB82B04A8D0CDBE9D6AAC /* AddressFletModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2734ECEF50E3A0BE4C6D0B0D0442989 /* AddressFletModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C5177A20E3EE81804D067368E3211C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55C498D1B429C2A0F163B5F2A8650CBC;
+			remoteInfo = LvAddressPicker;
+		};
+		748BBE9AEA5A8CD2394BC4087F3C47E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 620CE99E7766C53C70624DCE6A26B545;
+			remoteInfo = "LvAddressPicker-LvAddressPicker";
+		};
+		CA765552ED5A6DDA9D3A3E8747221886 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54504EB1EE11143655E3C2A7035A571;
+			remoteInfo = "Pods-LvAddressPicker_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C2963CF65C5B887330773006B69221 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010AE8BF608B129686D36516DE0AB9CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10317B13C57E460820EAAE43BB111B7D /* Pods-LvAddressPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LvAddressPicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		2328328444A77450A5E31D1ABEEB2D34 /* ResourceBundle-LvAddressPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-LvAddressPicker-Info.plist"; sourceTree = "<group>"; };
+		239936566D488F4D33811A9DA468B8B9 /* Pods_LvAddressPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LvAddressPicker_Example.framework; path = "Pods-LvAddressPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		250B2A00CDFDC47EFE188276D061FC3A /* LvAddressPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LvAddressPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26D6148A1B7900DC7B1D572119B98929 /* Pods-LvAddressPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LvAddressPicker_Tests.modulemap"; sourceTree = "<group>"; };
+		2E7F0EF869185DA701DBE7863CA5F231 /* Pods-LvAddressPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LvAddressPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		32380D1E3FD5B26BAD081A32E78BC59C /* Pods-LvAddressPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LvAddressPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3844D260D9E4E21766FB253A17033CC0 /* Pods-LvAddressPicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LvAddressPicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		38503EA743A67F9452BBCFCEE5BAA64B /* LvAddressPickerVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LvAddressPickerVC.h; path = LvAddressPicker/Classes/LvAddressPickerVC.h; sourceTree = "<group>"; };
+		3E0A67B3589E2A1DB23CA1731707B0D4 /* Pods-LvAddressPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LvAddressPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		3F28463C451EDE6972BE04717ED41696 /* LvAddressPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LvAddressPicker.framework; path = LvAddressPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4701913C54D4FEB8A1FD29A20E9C55F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49A5A40FA02BC7B0CD7DD8CA9689FAB7 /* Pods_LvAddressPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LvAddressPicker_Tests.framework; path = "Pods-LvAddressPicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D8CB8FB673C47A9A6DFACFE0B16FBA3 /* address_data.json */ = {isa = PBXFileReference; includeInIndex = 1; name = address_data.json; path = LvAddressPicker/Assets/address_data.json; sourceTree = "<group>"; };
+		53E107B02AAE98ACDA44DD931792136C /* LvAddressPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LvAddressPicker.modulemap; sourceTree = "<group>"; };
+		59ADD3D038DC159FB6830C26D60DAC9E /* Pods-LvAddressPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LvAddressPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6284C5AD14035E6ACC42129E42F4573D /* Pods-LvAddressPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LvAddressPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FD5C218CE2F1311A2268B33F206CCBF /* Pods-LvAddressPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LvAddressPicker_Example-resources.sh"; sourceTree = "<group>"; };
+		72615E2B580A41D9F3C7C0408B31B16F /* Pods-LvAddressPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LvAddressPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7C3FF344C1D6D6C075B09DD96374B12D /* Pods-LvAddressPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LvAddressPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7DECABA15F4364E99D2E316F0F8B00D5 /* AddressFletModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AddressFletModel.h; path = LvAddressPicker/Classes/AddressFletModel.h; sourceTree = "<group>"; };
+		80CAC8359A89279C524030EA34A5668F /* Pods-LvAddressPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LvAddressPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		843FA6E881AD16B11C0AB19499EDA353 /* LvAddressPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = LvAddressPicker.bundle; path = "LvAddressPicker-LvAddressPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888248287F12264408F710FC60A6CC96 /* Pods-LvAddressPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LvAddressPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8F572204A1763D696FB8300AB45F8D11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		958CED030B238D43506C713DCB3AA834 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		976EA42B5735840999376C74EA3B7B77 /* LvAddressPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LvAddressPicker-prefix.pch"; sourceTree = "<group>"; };
+		B1886F79393EA09A4454FEB2128B9ED9 /* Pods-LvAddressPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LvAddressPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		C69A62F1B655F30D3CDE53B6B3A3D437 /* Pods-LvAddressPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LvAddressPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C8663150252A14EEDDE54BA1E8DC2C96 /* LvAddressPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LvAddressPicker.xcconfig; sourceTree = "<group>"; };
+		CC064D9EC075515092E294C705E7C4FD /* LvAddressPickerVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LvAddressPickerVC.m; path = LvAddressPicker/Classes/LvAddressPickerVC.m; sourceTree = "<group>"; };
+		D1495FE4985C337232A6E046AA20CBAA /* Pods-LvAddressPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LvAddressPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D23FC4D03184EC489FD1E5750F97A96E /* Pods-LvAddressPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LvAddressPicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		EACC4646C341EB294401224C150A30DB /* LvAddressPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LvAddressPicker-dummy.m"; sourceTree = "<group>"; };
+		EC0ADC01437BEA727F8ABD1094D5F5E5 /* LvAddressPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LvAddressPicker-umbrella.h"; sourceTree = "<group>"; };
+		F2734ECEF50E3A0BE4C6D0B0D0442989 /* AddressFletModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AddressFletModel.m; path = LvAddressPicker/Classes/AddressFletModel.m; sourceTree = "<group>"; };
+		FA185D8AF6FA77470D3EE8852DA7D6FE /* Pods-LvAddressPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LvAddressPicker_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3032FDAEA4D055921F66AC346B8EC49C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22A67456149D910EDE2053CE64D78A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5324F1DDF268851A42603BD366C457D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841BBBF442A5CDD35BDA8FD1BD2A557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A981F632F410DE5F0B7F8771A6D428F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968114F461A07AACB85127622CE829E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C52B25D1514FDC8BE8D7F608BC7748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D285E729F730C441611AF1F820A349 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				010AE8BF608B129686D36516DE0AB9CF /* Info.plist */,
+				53E107B02AAE98ACDA44DD931792136C /* LvAddressPicker.modulemap */,
+				C8663150252A14EEDDE54BA1E8DC2C96 /* LvAddressPicker.xcconfig */,
+				EACC4646C341EB294401224C150A30DB /* LvAddressPicker-dummy.m */,
+				976EA42B5735840999376C74EA3B7B77 /* LvAddressPicker-prefix.pch */,
+				EC0ADC01437BEA727F8ABD1094D5F5E5 /* LvAddressPicker-umbrella.h */,
+				2328328444A77450A5E31D1ABEEB2D34 /* ResourceBundle-LvAddressPicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LvAddressPicker";
+			sourceTree = "<group>";
+		};
+		17FA124263919B02FB6B3980E6330701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843FA6E881AD16B11C0AB19499EDA353 /* LvAddressPicker.bundle */,
+				3F28463C451EDE6972BE04717ED41696 /* LvAddressPicker.framework */,
+				239936566D488F4D33811A9DA468B8B9 /* Pods_LvAddressPicker_Example.framework */,
+				49A5A40FA02BC7B0CD7DD8CA9689FAB7 /* Pods_LvAddressPicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A9C6220E36BACF2D8AD9C6EE9E39B1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8F572204A1763D696FB8300AB45F8D11 /* LICENSE */,
+				250B2A00CDFDC47EFE188276D061FC3A /* LvAddressPicker.podspec */,
+				958CED030B238D43506C713DCB3AA834 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		66A3A67159F38F4DA6104370E02A9C1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D8CB8FB673C47A9A6DFACFE0B16FBA3 /* address_data.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		79BE429CDA6D86ADB7CF38D513852AB2 /* LvAddressPicker */ = {
+			isa = PBXGroup;
+			children = (
+				7DECABA15F4364E99D2E316F0F8B00D5 /* AddressFletModel.h */,
+				F2734ECEF50E3A0BE4C6D0B0D0442989 /* AddressFletModel.m */,
+				38503EA743A67F9452BBCFCEE5BAA64B /* LvAddressPickerVC.h */,
+				CC064D9EC075515092E294C705E7C4FD /* LvAddressPickerVC.m */,
+				55A9C6220E36BACF2D8AD9C6EE9E39B1 /* Pod */,
+				66A3A67159F38F4DA6104370E02A9C1F /* Resources */,
+				06D285E729F730C441611AF1F820A349 /* Support Files */,
+			);
+			name = LvAddressPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D0412ADE005A90E776F351D7283FC1F3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				17FA124263919B02FB6B3980E6330701 /* Products */,
+				C560ADBC34906E5589CF921B19F34178 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89997DBAE68C30499A99AF5F06FB4903 /* Pods-LvAddressPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				00C2963CF65C5B887330773006B69221 /* Info.plist */,
+				FA185D8AF6FA77470D3EE8852DA7D6FE /* Pods-LvAddressPicker_Example.modulemap */,
+				C69A62F1B655F30D3CDE53B6B3A3D437 /* Pods-LvAddressPicker_Example-acknowledgements.markdown */,
+				7C3FF344C1D6D6C075B09DD96374B12D /* Pods-LvAddressPicker_Example-acknowledgements.plist */,
+				3E0A67B3589E2A1DB23CA1731707B0D4 /* Pods-LvAddressPicker_Example-dummy.m */,
+				72615E2B580A41D9F3C7C0408B31B16F /* Pods-LvAddressPicker_Example-frameworks.sh */,
+				6FD5C218CE2F1311A2268B33F206CCBF /* Pods-LvAddressPicker_Example-resources.sh */,
+				B1886F79393EA09A4454FEB2128B9ED9 /* Pods-LvAddressPicker_Example-umbrella.h */,
+				59ADD3D038DC159FB6830C26D60DAC9E /* Pods-LvAddressPicker_Example.debug.xcconfig */,
+				2E7F0EF869185DA701DBE7863CA5F231 /* Pods-LvAddressPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-LvAddressPicker_Example";
+			path = "Target Support Files/Pods-LvAddressPicker_Example";
+			sourceTree = "<group>";
+		};
+		AEDD88A601709177926A27EC119EDE8F /* Pods-LvAddressPicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4701913C54D4FEB8A1FD29A20E9C55F5 /* Info.plist */,
+				26D6148A1B7900DC7B1D572119B98929 /* Pods-LvAddressPicker_Tests.modulemap */,
+				D1495FE4985C337232A6E046AA20CBAA /* Pods-LvAddressPicker_Tests-acknowledgements.markdown */,
+				3844D260D9E4E21766FB253A17033CC0 /* Pods-LvAddressPicker_Tests-acknowledgements.plist */,
+				D23FC4D03184EC489FD1E5750F97A96E /* Pods-LvAddressPicker_Tests-dummy.m */,
+				32380D1E3FD5B26BAD081A32E78BC59C /* Pods-LvAddressPicker_Tests-frameworks.sh */,
+				10317B13C57E460820EAAE43BB111B7D /* Pods-LvAddressPicker_Tests-resources.sh */,
+				6284C5AD14035E6ACC42129E42F4573D /* Pods-LvAddressPicker_Tests-umbrella.h */,
+				80CAC8359A89279C524030EA34A5668F /* Pods-LvAddressPicker_Tests.debug.xcconfig */,
+				888248287F12264408F710FC60A6CC96 /* Pods-LvAddressPicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-LvAddressPicker_Tests";
+			path = "Target Support Files/Pods-LvAddressPicker_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C560ADBC34906E5589CF921B19F34178 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89997DBAE68C30499A99AF5F06FB4903 /* Pods-LvAddressPicker_Example */,
+				AEDD88A601709177926A27EC119EDE8F /* Pods-LvAddressPicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D0412ADE005A90E776F351D7283FC1F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79BE429CDA6D86ADB7CF38D513852AB2 /* LvAddressPicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		212F69A4B243E061BE4E6C8AA13EC8D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61D6E58017E7BC658630623F2416EF2 /* Pods-LvAddressPicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CD7DB5406744B9931FC964FE5E94CAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC5A0BD742A341510AA378561CE3E0D /* Pods-LvAddressPicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B69E4F645250C3F77AFD527DB9F932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18291BDFCFF42A9875F9138D319AEF7 /* AddressFletModel.h in Headers */,
+				3C17B6E3132FB850AA11317C451C9180 /* LvAddressPicker-umbrella.h in Headers */,
+				A28C2357C4D000D0FB75AF0ED60EB8EC /* LvAddressPickerVC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55C498D1B429C2A0F163B5F2A8650CBC /* LvAddressPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C4566E1F2B7DC2569F84BCFC42F5F7 /* Build configuration list for PBXNativeTarget "LvAddressPicker" */;
+			buildPhases = (
+				61E17C9A22608165264950F082C7898D /* Sources */,
+				5324F1DDF268851A42603BD366C457D7 /* Frameworks */,
+				BEAB0C8438BEC267D880EC4DF70F0FB1 /* Resources */,
+				55B69E4F645250C3F77AFD527DB9F932 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8426F2E1F1B1D32B82B767A2B180ABFF /* PBXTargetDependency */,
+			);
+			name = LvAddressPicker;
+			productName = LvAddressPicker;
+			productReference = 3F28463C451EDE6972BE04717ED41696 /* LvAddressPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		620CE99E7766C53C70624DCE6A26B545 /* LvAddressPicker-LvAddressPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE3B4CD0C53790BBB7689CCB278DCE9 /* Build configuration list for PBXNativeTarget "LvAddressPicker-LvAddressPicker" */;
+			buildPhases = (
+				599352188DFD6EAF4D216C80A4BE9C1C /* Sources */,
+				F1C52B25D1514FDC8BE8D7F608BC7748 /* Frameworks */,
+				C12EF231F01492C336D75470619CF268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LvAddressPicker-LvAddressPicker";
+			productName = "LvAddressPicker-LvAddressPicker";
+			productReference = 843FA6E881AD16B11C0AB19499EDA353 /* LvAddressPicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B54504EB1EE11143655E3C2A7035A571 /* Pods-LvAddressPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A846F305421FDE18801645853F2240 /* Build configuration list for PBXNativeTarget "Pods-LvAddressPicker_Example" */;
+			buildPhases = (
+				EEE1186031B9146CBDC30AE2D7A25276 /* Sources */,
+				3032FDAEA4D055921F66AC346B8EC49C /* Frameworks */,
+				3CD7DB5406744B9931FC964FE5E94CAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB8F146C13DD0F3FB0A76967041C8C81 /* PBXTargetDependency */,
+			);
+			name = "Pods-LvAddressPicker_Example";
+			productName = "Pods-LvAddressPicker_Example";
+			productReference = 239936566D488F4D33811A9DA468B8B9 /* Pods_LvAddressPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F765F71D469AB4CC38DD028E12E95277 /* Pods-LvAddressPicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2784F511C948EFECF55E5D28E3D585E4 /* Build configuration list for PBXNativeTarget "Pods-LvAddressPicker_Tests" */;
+			buildPhases = (
+				A669B3C32B662DB635B72E4D1478603F /* Sources */,
+				A981F632F410DE5F0B7F8771A6D428F9 /* Frameworks */,
+				212F69A4B243E061BE4E6C8AA13EC8D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F391AECDF3BEAC685E48B1AE41155E49 /* PBXTargetDependency */,
+			);
+			name = "Pods-LvAddressPicker_Tests";
+			productName = "Pods-LvAddressPicker_Tests";
+			productReference = 49A5A40FA02BC7B0CD7DD8CA9689FAB7 /* Pods_LvAddressPicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 17FA124263919B02FB6B3980E6330701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C498D1B429C2A0F163B5F2A8650CBC /* LvAddressPicker */,
+				620CE99E7766C53C70624DCE6A26B545 /* LvAddressPicker-LvAddressPicker */,
+				B54504EB1EE11143655E3C2A7035A571 /* Pods-LvAddressPicker_Example */,
+				F765F71D469AB4CC38DD028E12E95277 /* Pods-LvAddressPicker_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEAB0C8438BEC267D880EC4DF70F0FB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB23699191CF0195D4B0BC562847C0F /* LvAddressPicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12EF231F01492C336D75470619CF268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843E17E12628F6F277CD5EB8CE4CBB66 /* address_data.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		599352188DFD6EAF4D216C80A4BE9C1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E17C9A22608165264950F082C7898D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F870FD8D9AFCB82B04A8D0CDBE9D6AAC /* AddressFletModel.m in Sources */,
+				902180DFFCADC077B4878FBB61AC593A /* LvAddressPicker-dummy.m in Sources */,
+				CDCA40700142CB26132CD8B9BB0867EA /* LvAddressPickerVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A669B3C32B662DB635B72E4D1478603F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927803F74819E02C6FB15DACD82F3FB2 /* Pods-LvAddressPicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE1186031B9146CBDC30AE2D7A25276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510A1E4DB6A0717AE8C34F1CE69A1959 /* Pods-LvAddressPicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8426F2E1F1B1D32B82B767A2B180ABFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LvAddressPicker-LvAddressPicker";
+			target = 620CE99E7766C53C70624DCE6A26B545 /* LvAddressPicker-LvAddressPicker */;
+			targetProxy = 748BBE9AEA5A8CD2394BC4087F3C47E6 /* PBXContainerItemProxy */;
+		};
+		CB8F146C13DD0F3FB0A76967041C8C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LvAddressPicker;
+			target = 55C498D1B429C2A0F163B5F2A8650CBC /* LvAddressPicker */;
+			targetProxy = 6C5177A20E3EE81804D067368E3211C2 /* PBXContainerItemProxy */;
+		};
+		F391AECDF3BEAC685E48B1AE41155E49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LvAddressPicker_Example";
+			target = B54504EB1EE11143655E3C2A7035A571 /* Pods-LvAddressPicker_Example */;
+			targetProxy = CA765552ED5A6DDA9D3A3E8747221886 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14F4418652597D96B3AC1E9F1456CF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CAC8359A89279C524030EA34A5668F /* Pods-LvAddressPicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LvAddressPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LvAddressPicker_Tests/Pods-LvAddressPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E01555E1AF364476A2A3846772BE513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8663150252A14EEDDE54BA1E8DC2C96 /* LvAddressPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LvAddressPicker";
+				INFOPLIST_FILE = "Target Support Files/LvAddressPicker/ResourceBundle-LvAddressPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LvAddressPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		75FB5F87948D10B9006FB50CB7BCF214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8663150252A14EEDDE54BA1E8DC2C96 /* LvAddressPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LvAddressPicker/LvAddressPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LvAddressPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LvAddressPicker/LvAddressPicker.modulemap";
+				PRODUCT_MODULE_NAME = LvAddressPicker;
+				PRODUCT_NAME = LvAddressPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93C3E1A5E102526016747722C5EF7CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888248287F12264408F710FC60A6CC96 /* Pods-LvAddressPicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LvAddressPicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LvAddressPicker_Tests/Pods-LvAddressPicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0CA08B1547B1FD1AA5BEB7F511BCE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59ADD3D038DC159FB6830C26D60DAC9E /* Pods-LvAddressPicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LvAddressPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LvAddressPicker_Example/Pods-LvAddressPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5F1C848A5754CF8B44E3818E43F2352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F0EF869185DA701DBE7863CA5F231 /* Pods-LvAddressPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LvAddressPicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LvAddressPicker_Example/Pods-LvAddressPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CA972AF8C620F0C514EAE83B461B88F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8663150252A14EEDDE54BA1E8DC2C96 /* LvAddressPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LvAddressPicker/LvAddressPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LvAddressPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LvAddressPicker/LvAddressPicker.modulemap";
+				PRODUCT_MODULE_NAME = LvAddressPicker;
+				PRODUCT_NAME = LvAddressPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F9CEECAB6681CCFF742D7D19757BD089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8663150252A14EEDDE54BA1E8DC2C96 /* LvAddressPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LvAddressPicker";
+				INFOPLIST_FILE = "Target Support Files/LvAddressPicker/ResourceBundle-LvAddressPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = LvAddressPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C4566E1F2B7DC2569F84BCFC42F5F7 /* Build configuration list for PBXNativeTarget "LvAddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA972AF8C620F0C514EAE83B461B88F9 /* Debug */,
+				75FB5F87948D10B9006FB50CB7BCF214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2784F511C948EFECF55E5D28E3D585E4 /* Build configuration list for PBXNativeTarget "Pods-LvAddressPicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F4418652597D96B3AC1E9F1456CF0D /* Debug */,
+				93C3E1A5E102526016747722C5EF7CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE3B4CD0C53790BBB7689CCB278DCE9 /* Build configuration list for PBXNativeTarget "LvAddressPicker-LvAddressPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CEECAB6681CCFF742D7D19757BD089 /* Debug */,
+				5E01555E1AF364476A2A3846772BE513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A846F305421FDE18801645853F2240 /* Build configuration list for PBXNativeTarget "Pods-LvAddressPicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0CA08B1547B1FD1AA5BEB7F511BCE31 /* Debug */,
+				A5F1C848A5754CF8B44E3818E43F2352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
