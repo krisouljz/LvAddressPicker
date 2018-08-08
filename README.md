@@ -22,7 +22,7 @@ pod 'LvAddressPicker'
 
 ## Author
 
-krisouljz, lvjiazhen@icarbonx.com
+krisouljz, 1435073930@qq.com
 
 ## License
 
