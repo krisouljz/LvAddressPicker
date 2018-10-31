@@ -28,6 +28,7 @@
     
 //    self.button.frame = CGRectMake([UIScreen mainScreen].bounds.size.width / 2.0 - 50, 100, 100, 40);
 //    self.label.frame = CGRectMake(0, 150, [UIScreen mainScreen].bounds.size.width, 100);
+    //测试测试测试
 }
 
 

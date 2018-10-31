@@ -1,5 +1,5 @@
 PODS:
-  - LvAddressPicker (0.1.0)
+  - LvAddressPicker (0.1.1)
 
 DEPENDENCIES:
   - LvAddressPicker (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LvAddressPicker: b01720092ddd3e230918d8b490f9dbf3e60385cf
+  LvAddressPicker: 3a3c616a949257feb378355d4d109da539dbe113
 
 PODFILE CHECKSUM: 498dedc72e15c59d7aebaab50fc1caab10834a00
 
